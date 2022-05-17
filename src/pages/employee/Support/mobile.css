@@ -1,0 +1,31 @@
+.k-chat {
+    height: calc(100vh - 60px);
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 100%;
+    margin: auto;
+}
+
+.k-chat .k-author {
+    font-size: 16px;
+}
+
+.k-chat .k-bubble {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+    border-color: #fff;
+    color: #00001F;
+    background-color: #F3F3F3;
+    transition: box-shadow .2s ease-in-out;
+    order: -1;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.k-chat .k-alt .k-bubble {
+    box-shadow: 0 1px 2px rgba(63,81,181,0.2);
+    border-color: #fff;
+    color: #00001F;
+    background-color: #fff;
+}

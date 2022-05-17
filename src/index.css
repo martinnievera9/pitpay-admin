@@ -1,0 +1,306 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.verificationContainer .ReactInputVerificationCode__item {
+  position: relative;
+  color: white;
+  font-weight: 500;
+  background-color: #6c6c79;
+  border-radius: 9px;
+  box-shadow: inset 0 0 0 0px #ccc;
+}
+
+.PhoneInputInput {
+  flex: 1 1;
+  outline: none;
+  min-width: 0;
+  font-family: 'Barlow Condensed';
+  background: #00001d;
+  color: white;
+  border: 0;
+  text-align: center;
+  box-shadow: inset 0 0 0 2px #888888;
+  border-radius: 8px;
+  margin: 6px;
+  padding: 10px;
+  font-size: 35px;
+}
+@media (max-width: 768px) {
+  .verificationContainer .ReactInputVerificationCode__item {
+    position: relative;
+    color: white;
+    font-weight: 500;
+    background-color: #6c6c79;
+    border-radius: 9px;
+    height: 55px;
+    line-height: 55px;
+    width: 15%;
+    box-shadow: inset 0 0 0 0px #ccc;
+  }
+  .PhoneInputInput {
+    font-size: 30px;
+  }
+}
+
+.verificationContainer .ReactInputVerificationCode__item.is-active {
+  background-color: #00001d;
+  box-shadow: inset 0 0 0 2px #eb5d2a;
+}
+.PhoneInputCountry:focus-within {
+  box-shadow: inset 0 0 0 2px #fff;
+}
+.PhoneInputInput:focus {
+  box-shadow: inset 0 0 0 2px #fff;
+}
+.PhoneInputCountry {
+  box-shadow: inset 0 0 0 2px #888888;
+  border-radius: 8px;
+  margin: 6px;
+  padding: 5px 18px;
+}
+
+.focus-visible {
+  outline: none;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'helvetica Neue';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local('helvetica Neue'), local('Barlow Condensed-Regular'),
+    url('./fonts/helveticaNeue/HelveticaNeue.ttf') format('truetype');
+
+  /* Super Modern Browsers */
+}
+@font-face {
+  font-family: 'helvetica Neue Bold';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local('helvetica Neue Bold'), local('Barlow Condensed-Regular'),
+    url('./fonts/helveticaNeue/HelveticaNeueBold.ttf') format('truetype');
+
+  /* Super Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Barlow Condensed Semi';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local('Barlow Condensed SemiBold '), local('Barlow Condensed-SemiBold'),
+    url('./fonts/BarlowCondensed/barlow-condensed-latin-600.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('./fonts/BarlowCondensed/barlow-condensed-latin-600.woff')
+      format('woff'); /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/RobotoRegular/RobotoRegular.eot');
+  src: url('./fonts/RobotoRegular/RobotoRegular.eot?#iefix')
+      format('embedded-opentype'),
+    url('./fonts/RobotoRegular/RobotoRegular.woff') format('woff'),
+    url('./fonts/RobotoRegular/RobotoRegular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/RobotoLight/RobotoLight.eot');
+  src: url('./fonts/RobotoLight/RobotoLight.eot?#iefix')
+      format('embedded-opentype'),
+    url('./fonts/RobotoLight/RobotoLight.woff') format('woff'),
+    url('./fonts/RobotoLight/RobotoLight.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/RobotoMedium/RobotoMedium.eot');
+  src: url('./fonts/RobotoMedium/RobotoMedium.eot?#iefix')
+      format('embedded-opentype'),
+    url('./fonts/RobotoMedium/RobotoMedium.woff') format('woff'),
+    url('./fonts/RobotoMedium/RobotoMedium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/RobotoBold/RobotoBold.eot');
+  src: url('./fonts/RobotoBold/RobotoBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('./fonts/RobotoBold/RobotoBold.woff') format('woff'),
+    url('./fonts/RobotoBold/RobotoBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local('Barlow Condensed Regular '), local('Barlow Condensed-Regular'),
+    url('./fonts/BarlowCondensed/barlow-condensed-latin-400.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('./fonts/BarlowCondensed/barlow-condensed-latin-400.woff')
+      format('woff'); /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local('Barlow Condensed SemiBold '), local('Barlow Condensed-SemiBold'),
+    url('./fonts/BarlowCondensed/barlow-condensed-latin-600.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('./fonts/BarlowCondensed/barlow-condensed-latin-600.woff')
+      format('woff'); /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local('Barlow Condensed Bold '), local('Barlow Condensed-Bold'),
+    url('./fonts/BarlowCondensed/barlow-condensed-latin-700.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('./fonts/BarlowCondensed/barlow-condensed-latin-700.woff')
+      format('woff'); /* Modern Browsers */
+}
+
+body {
+  font-family: 'Roboto';
+}

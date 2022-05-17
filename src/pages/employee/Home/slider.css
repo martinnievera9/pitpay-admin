@@ -1,0 +1,29 @@
+.custom-dot {
+  height: 7px;
+  width: 32px;
+  border-radius: 3px;
+  background-color: #e0dfdf;
+  margin: 0 10px;
+}
+
+.slider-container {
+  height: 370px;
+}
+
+.carousel__dot--selected {
+  height: 7px;
+  width: 32px;
+  border-radius: 3px;
+  background-color: #fa4616;
+  border-color: #fa4616;
+}
+
+.pull-show {
+  transition: margin 500ms;
+  margin-right: -56px;
+}
+
+.pull-left {
+  transition: margin 500ms;
+  margin-right: -56px;
+}

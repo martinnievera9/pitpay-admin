@@ -1,0 +1,24 @@
+{
+  "short_name": "Dashboard",
+  "name": "Dashboard",
+  "icons": [
+    {
+      "src": "../../favicons/pitpay/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "../../images/pitpay/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "../../images/pitpay/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "theme_color": "#fa4616",
+  "background_color": "#fa4616"
+}
